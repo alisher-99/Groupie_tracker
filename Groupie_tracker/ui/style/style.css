@@ -1,0 +1,192 @@
+html {
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(241, 241, 241);
+    max-width: 1655px;
+}
+body {
+    height: auto;
+    background-color: rgb(250, 250, 250);
+    width: 100%;
+    height: 100%;
+}
+a{
+  color: black;
+  text-decoration: none;  
+}
+a:visited 
+{
+  color: black;
+  text-decoration: none;
+}
+.gifka{
+    width: 28%;
+}
+.upside{
+      text-align: center;
+      background-color: rgb(164, 222, 255);
+}
+.upsideText{
+    background-color: rgb(102, 198, 253);
+    font-size: 300%;
+}
+.artist{
+  width: 100%;
+}
+.band{
+    width: 240px;
+    height: 280px; 
+    border: 4px solid rgb(102, 198, 253);
+    border-radius: 10px;
+    margin: 15px;
+    color: black;
+    background-color: rgb(164, 222, 255);
+}
+.bands{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.name{
+  text-align: center;
+  display: block;
+  font-size: 100%;
+}
+footer{
+  text-align: center;
+  background-color: rgb(102, 198, 253);
+  font-size: 100%;
+}
+.searchbar{
+  display: flex;
+    justify-content: center;
+    margin: 1em;
+}
+.searchbar input {
+  width: 400px;
+  padding: 6px;
+  border-color: rgb(102, 198, 253);
+  font-size: 17px;
+}
+.searchbar button {
+  /* margin-top: 8px; */
+  background: rgb(250, 250, 250);
+  border-color: rgb(102, 198, 253);
+  cursor: pointer;
+}
+.searchbar img {
+  width: 24px;
+}
+
+
+@media screen and (max-width: 800px) {
+  .gifka{
+    width: 24%;
+}
+.upsideText{
+  background-color: rgb(102, 198, 253);
+  font-size: 200%;
+}
+.artist{
+width: 100%;
+}
+.band{
+  width: 168px;
+  height: 200px; 
+  border: 3px solid rgb(102, 198, 253);
+  border-radius: 7px;
+  margin: 10px;
+  color: black;
+  background-color: rgb(164, 222, 255);
+}
+.name{
+  text-align: center;
+  display: block;
+  font-size: 80%;
+  margin-top: 0%;
+}
+footer{
+  text-align: center;
+  background-color: rgb(102, 198, 253);
+  font-size: 80%;
+}
+.searchbar{
+  display: flex;
+    justify-content: center;
+    margin: 1em;
+}
+.searchbar input {
+  width: 300px;
+  height: 20px;
+  padding: 4px;
+  border-color: rgb(102, 198, 253);
+  font-size: 13px;
+}
+.searchbar button {
+  background: rgb(250, 250, 250);
+  border-color: rgb(102, 198, 253);
+  cursor: pointer;
+  height: 32px;
+  width: 32px;
+}
+.searchbar img {
+  width: 19px;
+}
+}
+
+@media screen and (max-width: 600px) {
+  .gifka{
+    width: 20%;
+}
+.upsideText{
+  background-color: rgb(102, 198, 253);
+  font-size: 160%;
+}
+.artist{
+width: 100%;
+}
+.band{
+  width: 112px;
+  height: 138px; 
+  border: 2px solid rgb(102, 198, 253);
+  border-radius: 4px;
+  margin: 7px;
+  color: black;
+  background-color: rgb(164, 222, 255);
+}
+.name{
+  text-align: center;
+  display: block;
+  font-size: 55%;
+  margin-top: 0%;
+}
+footer{
+  text-align: center;
+  background-color: rgb(102, 198, 253);
+  font-size: 55%;
+}
+.searchbar{
+  display: flex;
+    justify-content: center;
+    margin: 1em;
+}
+.searchbar input {
+  width: 200px;
+  height: 15px;
+  padding: 2px;
+  border-color: rgb(102, 198, 253);
+  font-size: 10px;
+}
+.searchbar button {
+  /* margin-top: 8px; */
+  background: rgb(250, 250, 250);
+  border-color: rgb(102, 198, 253);
+  cursor: pointer;
+  width: 23px;
+  height: 23px;
+}
+.searchbar img {
+  width: 13px;
+}
+}
